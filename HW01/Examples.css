@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(102, 207, 242)
+}
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+    font-family: "Story Script", sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    background-color: #e89a5e;
+    color: rgb(13, 66, 62);
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav:hover {
+    color:green;
+}
+.div {
+    display:flex; 
+    justify-content:center;
+}
