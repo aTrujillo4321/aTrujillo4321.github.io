@@ -1,0 +1,37 @@
+body {
+    background-color:lightgray;
+}
+h1 {
+    color:black;
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+    font-size:max(2vw, 6vw);
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    background-color: #91c9b9;
+    color: rgb(13, 66, 62);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+.nav:hover {
+    color:green;
+}
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+ul {
+    background-color: #91c9b9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+#form {
+    text-align: center;
+}
