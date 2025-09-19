@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #97c7f2;
+    color: #241e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+.game {
+    background-color: #ffffff;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+#guessBox {
+    padding: 10px;
+    font-size: 1.3em;
+    border: 2px solid #289ae7;
+    border-radius: 8px;
+    width: 80px;
+    text-align: center;
+}
+
+#guessBtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#guessBtn:hover {
+    background-color: #29b952;
+}
+
+.result {
+    text-align: left;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+.guesses {
+    font-style: italic;
+    color: #c646e6;
+}
+
+.low-or-high {
+    font-weight: bold;
+}
+
+.final-message {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.final-message.win {
+    color: #27ae60;
+}
+
+.final-message.lost {
+    color: #e74c3c;
+}
+
+.error-message {
+    color: #e3f803;
+    font-weight: bold;
+}
+
+.reset-button {
+    background-color: #47d7ea;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: none; 
+}
+.reset-button:hover {
+    background-color: #27ae60;
+}
+
+.score {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+h4 {
+    margin: 10px 0 5px;
+}
+
+.score span {
+    font-weight: bold;
+    color: #34495e;
+}

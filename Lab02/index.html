@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title> The Number! </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class = "header"> Guess the Number! </h1>
+    </header>
+    <div class = "game">
+        <label>
+            <input id = "guessBox" type = "text" size = "5">
+            <button id = "guessBtn" type = "submit"> Guess! </button>
+        </label>
+    </div>
+
+    <br>
+
+    <div class = "result">
+        <h3> Previous Guesses: </h3><span class = "guesses"></span>
+        <h4 class = "low-or-high"></h4>
+        <h4 class = "final-message"></h4>
+        <h4 class = "error-message"></h4>
+    </div>
+    <button class="reset-button">Start new game</button>
+
+    <br>
+
+    <div class = "score">
+        <h1 id="congrats"></h1>
+        <h4> Won: <span class = "wins"> 0 </span></h4>
+        <h4> Lost: <span class = "losses"> 0 </span></h4>
+    </div>
+    
+    <script src = "js/script.js"></script>
+</body>
+</html>
