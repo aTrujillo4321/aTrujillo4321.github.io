@@ -9,12 +9,12 @@ let losses = 0;
 console.log("random number: " + randomNumber);
 
 function guess() {
-    const guessBox = document.querySelector("#guessBox");
-    const userGuess = Number(guessBox.value);
+    let guessBox = document.querySelector("#guessBox");
+    let userGuess = Number(guessBox.value);
 
-    const loworHigh = document.querySelector(".low-or-high");
-    const final = document.querySelector(".final-message");
-    const congrats = document.querySelector("#congrats");
+    let loworHigh = document.querySelector(".low-or-high");
+    let final = document.querySelector(".final-message");
+    let congrats = document.querySelector("#congrats");
 
     if (userGuess > 99) {
         document.querySelector(".error-message").textContent = "Please enter a number that is 99 or less.";
@@ -79,4 +79,5 @@ function resetGame() {
     document.querySelector(".reset-button").style.display = "none";
     document.querySelector("#guessBox").value = "";
     document.querySelector("#guessBox").focus();
+
 }
