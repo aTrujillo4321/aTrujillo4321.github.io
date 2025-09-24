@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6dc5b6;
+    color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #0b0b0b;
+    letter-spacing: 2px;
+}
+
+.dealer {
+    background-color: #03ae9a;
+    border: 2px solid #014136;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.player {
+    background-color: #03ae9a;
+    border: 2px solid #014136;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.info {
+    background-color: #03ae9a;
+    border: 2px solid #014136;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 5px;
+    color: #f29696;
+}
+
+h5 {
+    padding-bottom: 5px;
+    color: #7b4692;
+}
+
+#dealer-score {
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+#player-score {
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0400ff;
+    margin-top: 10px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #25e05a;
+    color: #121618;
+    border: solid;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0bb4f2;
+}
+button:disabled {
+    background-color: #607d8b;
+    cursor: not-allowed;
+    color: #cfd8dc;
+}
+
+#game-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.info h5 {
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.info span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #4db6ac;
+    margin: 20px;
+}
