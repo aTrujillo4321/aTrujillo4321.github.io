@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=1, initial-scale=1.0">
+    <Title> US Capitals Quiz! </Title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> CSS Quiz </h1>
+    <script src = "https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+
+    <div class = "question"> 1. What is the most populous Captial of any state in the USA? </div>
+    <div id = "q1Options" class = "options"></div>
+    <div id = "afterQuiz" class = "feedback"></div>
+
+    <br>
+
+    <div class = "question"> 2. What is the most famous Captial of any state in the USA? </div>
+    <label>
+        Popular options:
+        <select id = "popularCapt">
+            <option> Boston </option>
+            <option> Nashville </option>
+            <option> Detroit </option>
+            <option> Washington D.C </option>
+        </select>
+    </label>
+    <div id = "afterQuiz2" class = "feedback"></div>
+
+    <br>
+
+    <div class = "question"> 3. What is the capital of Wyoming? </div>
+    <label> Enter Capital!
+        <input type = "text" id = "textInput" placeholder = "capital">
+    </label>
+    <div id = "afterQuiz3" class = "feedback"></div>
+    
+
+    <br>
+
+    <div class = "question"> 4. How many capitals are there in the US? (Including Federal?) </div>
+    <label>
+        Number of Captials:
+        <input id = "numCapt" type = "number" min = "1" max = "100" step = "1">
+    </label>
+    <div id = "afterQuiz4" class = "feedback"></div>
+
+    <br>
+
+    <div class = "question"> 5. How many capitals start with the letter A? </div>
+    <div id = "q5Options" class = "options"></div>
+    <div id = "afterQuiz5" class = "feedback"></div>
+
+    <br>
+
+    <button> Submit Quiz </button>
+    <div id = "quizResults">
+        <h3>Total Score: <span id = "finalScore"></span></h3>
+        <h4 id = "congrats"></h4>
+        <h5>Total Times Quiz Taken: <span id = "timesTaken"></span></h5>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
